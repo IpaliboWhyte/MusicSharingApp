@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>78FF5138-1DB9-4B7B-B3BA-509CBE84C87E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MusicShare</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FF8DC855-837D-4024-98A4-02E9CE9ADE3F</key>
+		<string>https://github.com/IpaliboWhyte/MusicSharingApp.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MusicShare/MusicShare.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FF8DC855-837D-4024-98A4-02E9CE9ADE3F</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/IpaliboWhyte/MusicSharingApp.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FF8DC855-837D-4024-98A4-02E9CE9ADE3F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FF8DC855-837D-4024-98A4-02E9CE9ADE3F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MusicSharingApp</string>
+		</dict>
+	</array>
+</dict>
+</plist>

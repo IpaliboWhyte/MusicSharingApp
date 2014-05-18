@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6DB511641928D0580060DEDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DB511631928D0580060DEDF /* Foundation.framework */; };
+		6DB511661928D0580060DEDF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DB511651928D0580060DEDF /* CoreGraphics.framework */; };
+		6DB511681928D0580060DEDF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DB511671928D0580060DEDF /* UIKit.framework */; };
+		6DB5116E1928D0580060DEDF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6DB5116C1928D0580060DEDF /* InfoPlist.strings */; };
+		6DB511701928D0580060DEDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB5116F1928D0580060DEDF /* main.m */; };
+		6DB511741928D0580060DEDF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB511731928D0580060DEDF /* AppDelegate.m */; };
+		6DB511761928D0580060DEDF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DB511751928D0580060DEDF /* Images.xcassets */; };
+		6DB5117D1928D0580060DEDF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DB5117C1928D0580060DEDF /* XCTest.framework */; };
+		6DB5117E1928D0580060DEDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DB511631928D0580060DEDF /* Foundation.framework */; };
+		6DB5117F1928D0580060DEDF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DB511671928D0580060DEDF /* UIKit.framework */; };
+		6DB511871928D0580060DEDF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6DB511851928D0580060DEDF /* InfoPlist.strings */; };
+		6DB511891928D0580060DEDF /* MusicShareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB511881928D0580060DEDF /* MusicShareTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6DB511801928D0580060DEDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DB511581928D0580060DEDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DB5115F1928D0580060DEDF;
+			remoteInfo = MusicShare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6DB511601928D0580060DEDF /* MusicShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DB511631928D0580060DEDF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6DB511651928D0580060DEDF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6DB511671928D0580060DEDF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6DB5116B1928D0580060DEDF /* MusicShare-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MusicShare-Info.plist"; sourceTree = "<group>"; };
+		6DB5116D1928D0580060DEDF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6DB5116F1928D0580060DEDF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6DB511711928D0580060DEDF /* MusicShare-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MusicShare-Prefix.pch"; sourceTree = "<group>"; };
+		6DB511721928D0580060DEDF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6DB511731928D0580060DEDF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6DB511751928D0580060DEDF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6DB5117B1928D0580060DEDF /* MusicShareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicShareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DB5117C1928D0580060DEDF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6DB511841928D0580060DEDF /* MusicShareTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MusicShareTests-Info.plist"; sourceTree = "<group>"; };
+		6DB511861928D0580060DEDF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6DB511881928D0580060DEDF /* MusicShareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicShareTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DB5115D1928D0580060DEDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DB511661928D0580060DEDF /* CoreGraphics.framework in Frameworks */,
+				6DB511681928D0580060DEDF /* UIKit.framework in Frameworks */,
+				6DB511641928D0580060DEDF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DB511781928D0580060DEDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DB5117D1928D0580060DEDF /* XCTest.framework in Frameworks */,
+				6DB5117F1928D0580060DEDF /* UIKit.framework in Frameworks */,
+				6DB5117E1928D0580060DEDF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6DB511571928D0580060DEDF = {
+			isa = PBXGroup;
+			children = (
+				6DB511691928D0580060DEDF /* MusicShare */,
+				6DB511821928D0580060DEDF /* MusicShareTests */,
+				6DB511621928D0580060DEDF /* Frameworks */,
+				6DB511611928D0580060DEDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6DB511611928D0580060DEDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DB511601928D0580060DEDF /* MusicShare.app */,
+				6DB5117B1928D0580060DEDF /* MusicShareTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DB511621928D0580060DEDF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6DB511631928D0580060DEDF /* Foundation.framework */,
+				6DB511651928D0580060DEDF /* CoreGraphics.framework */,
+				6DB511671928D0580060DEDF /* UIKit.framework */,
+				6DB5117C1928D0580060DEDF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6DB511691928D0580060DEDF /* MusicShare */ = {
+			isa = PBXGroup;
+			children = (
+				6DB511721928D0580060DEDF /* AppDelegate.h */,
+				6DB511731928D0580060DEDF /* AppDelegate.m */,
+				6DB511751928D0580060DEDF /* Images.xcassets */,
+				6DB5116A1928D0580060DEDF /* Supporting Files */,
+			);
+			path = MusicShare;
+			sourceTree = "<group>";
+		};
+		6DB5116A1928D0580060DEDF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6DB5116B1928D0580060DEDF /* MusicShare-Info.plist */,
+				6DB5116C1928D0580060DEDF /* InfoPlist.strings */,
+				6DB5116F1928D0580060DEDF /* main.m */,
+				6DB511711928D0580060DEDF /* MusicShare-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6DB511821928D0580060DEDF /* MusicShareTests */ = {
+			isa = PBXGroup;
+			children = (
+				6DB511881928D0580060DEDF /* MusicShareTests.m */,
+				6DB511831928D0580060DEDF /* Supporting Files */,
+			);
+			path = MusicShareTests;
+			sourceTree = "<group>";
+		};
+		6DB511831928D0580060DEDF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6DB511841928D0580060DEDF /* MusicShareTests-Info.plist */,
+				6DB511851928D0580060DEDF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6DB5115F1928D0580060DEDF /* MusicShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DB5118C1928D0580060DEDF /* Build configuration list for PBXNativeTarget "MusicShare" */;
+			buildPhases = (
+				6DB5115C1928D0580060DEDF /* Sources */,
+				6DB5115D1928D0580060DEDF /* Frameworks */,
+				6DB5115E1928D0580060DEDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MusicShare;
+			productName = MusicShare;
+			productReference = 6DB511601928D0580060DEDF /* MusicShare.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6DB5117A1928D0580060DEDF /* MusicShareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DB5118F1928D0580060DEDF /* Build configuration list for PBXNativeTarget "MusicShareTests" */;
+			buildPhases = (
+				6DB511771928D0580060DEDF /* Sources */,
+				6DB511781928D0580060DEDF /* Frameworks */,
+				6DB511791928D0580060DEDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DB511811928D0580060DEDF /* PBXTargetDependency */,
+			);
+			name = MusicShareTests;
+			productName = MusicShareTests;
+			productReference = 6DB5117B1928D0580060DEDF /* MusicShareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DB511581928D0580060DEDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = SweetKeyNotes;
+				TargetAttributes = {
+					6DB5117A1928D0580060DEDF = {
+						TestTargetID = 6DB5115F1928D0580060DEDF;
+					};
+				};
+			};
+			buildConfigurationList = 6DB5115B1928D0580060DEDF /* Build configuration list for PBXProject "MusicShare" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6DB511571928D0580060DEDF;
+			productRefGroup = 6DB511611928D0580060DEDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DB5115F1928D0580060DEDF /* MusicShare */,
+				6DB5117A1928D0580060DEDF /* MusicShareTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DB5115E1928D0580060DEDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DB5116E1928D0580060DEDF /* InfoPlist.strings in Resources */,
+				6DB511761928D0580060DEDF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DB511791928D0580060DEDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DB511871928D0580060DEDF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DB5115C1928D0580060DEDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DB511741928D0580060DEDF /* AppDelegate.m in Sources */,
+				6DB511701928D0580060DEDF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DB511771928D0580060DEDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DB511891928D0580060DEDF /* MusicShareTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6DB511811928D0580060DEDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DB5115F1928D0580060DEDF /* MusicShare */;
+			targetProxy = 6DB511801928D0580060DEDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6DB5116C1928D0580060DEDF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DB5116D1928D0580060DEDF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6DB511851928D0580060DEDF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DB511861928D0580060DEDF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6DB5118A1928D0580060DEDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6DB5118B1928D0580060DEDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6DB5118D1928D0580060DEDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MusicShare/MusicShare-Prefix.pch";
+				INFOPLIST_FILE = "MusicShare/MusicShare-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6DB5118E1928D0580060DEDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MusicShare/MusicShare-Prefix.pch";
+				INFOPLIST_FILE = "MusicShare/MusicShare-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6DB511901928D0580060DEDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MusicShare.app/MusicShare";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MusicShare/MusicShare-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MusicShareTests/MusicShareTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6DB511911928D0580060DEDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MusicShare.app/MusicShare";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MusicShare/MusicShare-Prefix.pch";
+				INFOPLIST_FILE = "MusicShareTests/MusicShareTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DB5115B1928D0580060DEDF /* Build configuration list for PBXProject "MusicShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DB5118A1928D0580060DEDF /* Debug */,
+				6DB5118B1928D0580060DEDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DB5118C1928D0580060DEDF /* Build configuration list for PBXNativeTarget "MusicShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DB5118D1928D0580060DEDF /* Debug */,
+				6DB5118E1928D0580060DEDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6DB5118F1928D0580060DEDF /* Build configuration list for PBXNativeTarget "MusicShareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DB511901928D0580060DEDF /* Debug */,
+				6DB511911928D0580060DEDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DB511581928D0580060DEDF /* Project object */;
+}
