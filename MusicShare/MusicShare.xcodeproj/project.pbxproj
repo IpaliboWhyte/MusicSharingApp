@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D3AED73194AA45E00E46AF5 /* HomePageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D3AED72194AA45E00E46AF5 /* HomePageView.m */; };
+		6D3F827F194AB8A500748F93 /* PostView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D3F827E194AB8A500748F93 /* PostView.m */; };
+		6D3F8285194ABBA000748F93 /* kidink2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D3F8284194ABBA000748F93 /* kidink2.jpg */; };
+		6D3F8290194B810C00748F93 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D3F828F194B810C00748F93 /* SearchViewController.m */; };
+		6D3F8293194B814600748F93 /* RecievedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D3F8292194B814600748F93 /* RecievedViewController.m */; };
+		6D3F8296194B815900748F93 /* FeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D3F8295194B815900748F93 /* FeedViewController.m */; };
+		6D3F8299194B817100748F93 /* ShowFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D3F8298194B817100748F93 /* ShowFriendViewController.m */; };
+		6D3F829D194B827200748F93 /* ListeningSessionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D3F829C194B827200748F93 /* ListeningSessionViewController.m */; };
+		6D3F82A0194B836200748F93 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D3F829F194B836200748F93 /* ProfileViewController.m */; };
+		6D3F82A3194B83E200748F93 /* PlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D3F82A2194B83E200748F93 /* PlayViewController.m */; };
+		6D3F82A5194B91B000748F93 /* fontello.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D3F82A4194B91B000748F93 /* fontello.ttf */; };
+		6D3F82A7194BA24100748F93 /* mountain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D3F82A6194BA24100748F93 /* mountain.jpg */; };
+		6D3F82AD194CFB0C00748F93 /* background_Image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D3F82AC194CFB0C00748F93 /* background_Image.jpg */; };
 		6DB511641928D0580060DEDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DB511631928D0580060DEDF /* Foundation.framework */; };
 		6DB511661928D0580060DEDF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DB511651928D0580060DEDF /* CoreGraphics.framework */; };
 		6DB511681928D0580060DEDF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DB511671928D0580060DEDF /* UIKit.framework */; };
@@ -19,6 +32,7 @@
 		6DB5117F1928D0580060DEDF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DB511671928D0580060DEDF /* UIKit.framework */; };
 		6DB511871928D0580060DEDF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6DB511851928D0580060DEDF /* InfoPlist.strings */; };
 		6DB511891928D0580060DEDF /* MusicShareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB511881928D0580060DEDF /* MusicShareTests.m */; };
+		EAEF05F4687E45C3927363CD /* libPods-MusicShare.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4408018E8AB749BE9FD0A554 /* libPods-MusicShare.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +46,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C490BB4BACA441DAEFA9AFC /* Pods-MusicShare.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicShare.xcconfig"; path = "Pods/Pods-MusicShare.xcconfig"; sourceTree = "<group>"; };
+		4408018E8AB749BE9FD0A554 /* libPods-MusicShare.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MusicShare.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D3AED71194AA45E00E46AF5 /* HomePageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageView.h; sourceTree = "<group>"; };
+		6D3AED72194AA45E00E46AF5 /* HomePageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageView.m; sourceTree = "<group>"; };
+		6D3F827D194AB8A500748F93 /* PostView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostView.h; sourceTree = "<group>"; };
+		6D3F827E194AB8A500748F93 /* PostView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostView.m; sourceTree = "<group>"; };
+		6D3F8284194ABBA000748F93 /* kidink2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kidink2.jpg; sourceTree = "<group>"; };
+		6D3F828E194B810C00748F93 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		6D3F828F194B810C00748F93 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		6D3F8291194B814600748F93 /* RecievedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecievedViewController.h; sourceTree = "<group>"; };
+		6D3F8292194B814600748F93 /* RecievedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecievedViewController.m; sourceTree = "<group>"; };
+		6D3F8294194B815900748F93 /* FeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedViewController.h; sourceTree = "<group>"; };
+		6D3F8295194B815900748F93 /* FeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedViewController.m; sourceTree = "<group>"; };
+		6D3F8297194B817100748F93 /* ShowFriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowFriendViewController.h; sourceTree = "<group>"; };
+		6D3F8298194B817100748F93 /* ShowFriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowFriendViewController.m; sourceTree = "<group>"; };
+		6D3F829B194B827200748F93 /* ListeningSessionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListeningSessionViewController.h; sourceTree = "<group>"; };
+		6D3F829C194B827200748F93 /* ListeningSessionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListeningSessionViewController.m; sourceTree = "<group>"; };
+		6D3F829E194B836200748F93 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		6D3F829F194B836200748F93 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		6D3F82A1194B83E200748F93 /* PlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayViewController.h; sourceTree = "<group>"; };
+		6D3F82A2194B83E200748F93 /* PlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayViewController.m; sourceTree = "<group>"; };
+		6D3F82A4194B91B000748F93 /* fontello.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = fontello.ttf; sourceTree = "<group>"; };
+		6D3F82A6194BA24100748F93 /* mountain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mountain.jpg; sourceTree = "<group>"; };
+		6D3F82AC194CFB0C00748F93 /* background_Image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background_Image.jpg; sourceTree = "<group>"; };
 		6DB511601928D0580060DEDF /* MusicShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DB511631928D0580060DEDF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6DB511651928D0580060DEDF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -58,6 +96,7 @@
 				6DB511661928D0580060DEDF /* CoreGraphics.framework in Frameworks */,
 				6DB511681928D0580060DEDF /* UIKit.framework in Frameworks */,
 				6DB511641928D0580060DEDF /* Foundation.framework in Frameworks */,
+				EAEF05F4687E45C3927363CD /* libPods-MusicShare.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +113,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D3AED78194AA83A00E46AF5 /* Backgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				6D3F82A6194BA24100748F93 /* mountain.jpg */,
+			);
+			name = Backgrounds;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		6D3F827C194AB86C00748F93 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6D3F827D194AB8A500748F93 /* PostView.h */,
+				6D3F827E194AB8A500748F93 /* PostView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		6D3F8281194ABB0B00748F93 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				6D3F82AC194CFB0C00748F93 /* background_Image.jpg */,
+				6D3F8284194ABBA000748F93 /* kidink2.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		6D3F828D194B80CA00748F93 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6D3F828E194B810C00748F93 /* SearchViewController.h */,
+				6D3F828F194B810C00748F93 /* SearchViewController.m */,
+				6D3F8291194B814600748F93 /* RecievedViewController.h */,
+				6D3F8292194B814600748F93 /* RecievedViewController.m */,
+				6D3F8294194B815900748F93 /* FeedViewController.h */,
+				6D3F8295194B815900748F93 /* FeedViewController.m */,
+				6D3F8297194B817100748F93 /* ShowFriendViewController.h */,
+				6D3F8298194B817100748F93 /* ShowFriendViewController.m */,
+				6D3F829B194B827200748F93 /* ListeningSessionViewController.h */,
+				6D3F829C194B827200748F93 /* ListeningSessionViewController.m */,
+				6D3F829E194B836200748F93 /* ProfileViewController.h */,
+				6D3F829F194B836200748F93 /* ProfileViewController.m */,
+				6D3F82A1194B83E200748F93 /* PlayViewController.h */,
+				6D3F82A2194B83E200748F93 /* PlayViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		6DB511571928D0580060DEDF = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +168,7 @@
 				6DB511821928D0580060DEDF /* MusicShareTests */,
 				6DB511621928D0580060DEDF /* Frameworks */,
 				6DB511611928D0580060DEDF /* Products */,
+				3C490BB4BACA441DAEFA9AFC /* Pods-MusicShare.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +188,7 @@
 				6DB511651928D0580060DEDF /* CoreGraphics.framework */,
 				6DB511671928D0580060DEDF /* UIKit.framework */,
 				6DB5117C1928D0580060DEDF /* XCTest.framework */,
+				4408018E8AB749BE9FD0A554 /* libPods-MusicShare.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -109,7 +198,13 @@
 			children = (
 				6DB511721928D0580060DEDF /* AppDelegate.h */,
 				6DB511731928D0580060DEDF /* AppDelegate.m */,
+				6D3AED71194AA45E00E46AF5 /* HomePageView.h */,
+				6D3AED72194AA45E00E46AF5 /* HomePageView.m */,
 				6DB511751928D0580060DEDF /* Images.xcassets */,
+				6D3F828D194B80CA00748F93 /* Controllers */,
+				6D3F8281194ABB0B00748F93 /* Images */,
+				6D3F827C194AB86C00748F93 /* Views */,
+				6D3AED78194AA83A00E46AF5 /* Backgrounds */,
 				6DB5116A1928D0580060DEDF /* Supporting Files */,
 			);
 			path = MusicShare;
@@ -118,6 +213,7 @@
 		6DB5116A1928D0580060DEDF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6D3F82A4194B91B000748F93 /* fontello.ttf */,
 				6DB5116B1928D0580060DEDF /* MusicShare-Info.plist */,
 				6DB5116C1928D0580060DEDF /* InfoPlist.strings */,
 				6DB5116F1928D0580060DEDF /* main.m */,
@@ -151,9 +247,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6DB5118C1928D0580060DEDF /* Build configuration list for PBXNativeTarget "MusicShare" */;
 			buildPhases = (
+				E2CEF2D379274690A68D7B0D /* Check Pods Manifest.lock */,
 				6DB5115C1928D0580060DEDF /* Sources */,
 				6DB5115D1928D0580060DEDF /* Frameworks */,
 				6DB5115E1928D0580060DEDF /* Resources */,
+				38EE17A1FCFC45AFAF0D47B0 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -220,7 +318,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DB5116E1928D0580060DEDF /* InfoPlist.strings in Resources */,
+				6D3F82A7194BA24100748F93 /* mountain.jpg in Resources */,
 				6DB511761928D0580060DEDF /* Images.xcassets in Resources */,
+				6D3F82A5194B91B000748F93 /* fontello.ttf in Resources */,
+				6D3F8285194ABBA000748F93 /* kidink2.jpg in Resources */,
+				6D3F82AD194CFB0C00748F93 /* background_Image.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,13 +336,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		38EE17A1FCFC45AFAF0D47B0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-MusicShare-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2CEF2D379274690A68D7B0D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6DB5115C1928D0580060DEDF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D3AED73194AA45E00E46AF5 /* HomePageView.m in Sources */,
 				6DB511741928D0580060DEDF /* AppDelegate.m in Sources */,
+				6D3F8296194B815900748F93 /* FeedViewController.m in Sources */,
+				6D3F8290194B810C00748F93 /* SearchViewController.m in Sources */,
+				6D3F82A0194B836200748F93 /* ProfileViewController.m in Sources */,
+				6D3F82A3194B83E200748F93 /* PlayViewController.m in Sources */,
+				6D3F8293194B814600748F93 /* RecievedViewController.m in Sources */,
+				6D3F8299194B817100748F93 /* ShowFriendViewController.m in Sources */,
+				6D3F827F194AB8A500748F93 /* PostView.m in Sources */,
 				6DB511701928D0580060DEDF /* main.m in Sources */,
+				6D3F829D194B827200748F93 /* ListeningSessionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,6 +498,7 @@
 		};
 		6DB5118D1928D0580060DEDF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C490BB4BACA441DAEFA9AFC /* Pods-MusicShare.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -367,6 +512,7 @@
 		};
 		6DB5118E1928D0580060DEDF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C490BB4BACA441DAEFA9AFC /* Pods-MusicShare.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -437,6 +583,7 @@
 				6DB5118E1928D0580060DEDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6DB5118F1928D0580060DEDF /* Build configuration list for PBXNativeTarget "MusicShareTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +592,7 @@
 				6DB511911928D0580060DEDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

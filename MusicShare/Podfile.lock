@@ -1,0 +1,16 @@
+PODS:
+  - FXBlurView (1.6.1)
+  - iOS-blur (0.0.5)
+  - RNBlurredSideViewController (1.0.2)
+
+DEPENDENCIES:
+  - FXBlurView
+  - iOS-blur
+  - RNBlurredSideViewController
+
+SPEC CHECKSUMS:
+  FXBlurView: 1d01b96076d65027314d1be024c7506c292392aa
+  iOS-blur: 5ec57b4a72e57a4f8f5f47ff3f59e56c0690b761
+  RNBlurredSideViewController: 49120cad0a70e3bb5c47976221c8e5940405ab2a
+
+COCOAPODS: 0.32.1
